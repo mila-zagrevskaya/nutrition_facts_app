@@ -1,0 +1,25 @@
+.loader-box {
+  border: none;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #45454560;
+	.loader {
+		margin: 0 auto;
+		position: fixed;
+		top: 30%;
+		left: 40%;
+		@media (max-width: 1024px) {
+			left: 40%;
+			width: 20%;
+		}
+		@media (max-width: 768px) {
+      top: 25%;
+			left: 30%;
+			width: 15%;
+		}
+		@media (max-width: 768px) {
+			left: 25%;
+			width: 50%;
+		}
+	}
+}

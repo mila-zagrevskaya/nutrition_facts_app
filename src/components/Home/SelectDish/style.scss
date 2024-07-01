@@ -1,0 +1,22 @@
+.product-image {
+  position: relative;
+  margin: 15px 20px;
+  padding: 15px 5px;
+  img.main-image {
+    max-width: 65%;
+  }
+  .clear-select {
+    vertical-align: top;
+    position: absolute;
+    cursor: pointer;
+    margin: 0 25px;
+  }
+}
+
+.ingredients-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  transition: all 0.5s ease;
+}

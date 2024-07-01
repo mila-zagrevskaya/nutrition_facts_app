@@ -1,0 +1,16 @@
+.add-ons-ingredient-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  min-width: 30%;
+  .ingredient-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}

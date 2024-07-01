@@ -1,0 +1,20 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.section-container {
+  flex-basis: 32%;
+  margin: 25px 20px 10px;
+  text-align: center;
+  min-height: 75vh;
+  @media (max-width: 1024px) {
+    max-width: 45%;
+  }
+  .section-title {
+    text-transform: uppercase;
+  }
+}
